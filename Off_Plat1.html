@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)https://cybereum.io/wp-content/uploads/2021/04/Off_Plat1.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<script src="./Off_Plat1_files/d3.v3.js.download"></script>
+
+<style>
+
+
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+
+body {
+    background-color:#e8eaea;
+    font-family: 'Orbitron', courier, sans-serif;
+
+}
+
+p {
+    margin-top:1em;
+    font-size:1em;
+}
+
+h1 {font-size:5em;}
+a {
+    text-decoration:none;
+    color:rgba(255,255,255,.3); 
+}
+
+
+@-webkit-keyframes rotateInDownLeft {
+    from {
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: rotate3d(0, 0, 1, -45deg);
+        transform: rotate3d(0, 0, 1, -45deg);
+        opacity: 0;
+    }
+    
+    to {
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes rotateInDownLeft {
+    from {
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: rotate3d(0, 0, 1, -45deg);
+        transform: rotate3d(0, 0, 1, -45deg);
+        opacity: 0;
+    }
+    
+    to {
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+.rotateInDownLeft {
+    -webkit-animation-name: rotateInDownLeft;
+    animation-name: rotateInDownLeft;
+    position: absolute;
+    left: 32%;
+    top: 355px;
+}
+
+
+
+
+    .glow {
+        /*    text-align:center; */
+        position: absolute;
+        left: 32%;
+        top: 255px;
+        text-align: center;
+        width: 800px;
+        color: rgba(255,255,255,.3);
+        text-shadow: 0 0 1px rgba(157,208,154,.3);
+        /* Stripes */
+
+        background: -webkit-linear-gradient(transparent, transparent), url(PROBLOCH-LOGO.jpg) repeat;
+        /* clipping webkit magic */
+        /* -webkit-background-clip: text;*/
+        -webkit-text-fill-color: transparent;
+        /* Animation */
+        -webkit-animation: glow 3s infinite alternate;
+        -moz-animation: glow 3s infinite alternate;
+        animation: glow 3s infinite alternate;
+        -webkit-animation-timing-function: cubic-bezier(1,.3,.79,.81);
+        -moz-animation-timing-function: cubic-bezier(1,.3,.79,.81);
+        animation-timing-function: cubic-bezier(1,.3,.79,.81);
+    }
+
+@-webkit-keyframes glow {
+    0% {
+        text-shadow: 0 0 1px rgba(255,255,255,.1),
+        0 0 3px rgba(255,255,255,.1),
+        0 0 5px rgba(157,208,154,.3);
+    }
+    50% {
+        text-shadow: 0 0 2px rgba(255,255,255,.1),
+        0 0 5px rgba(255,255,255,.1);
+    }
+    52% {
+        text-shadow: 0 0 5px rgba(157,208,154,.3);
+    }
+    54% {
+        text-shadow: 0 0 2px rgba(255,255,255,.1),
+        0 0 5px rgba(255,255,255,.1);
+    }
+    100% {
+        text-shadow: 0 0 2px rgba(255,255,255,.1),
+        0 0 5px rgba(255,255,255,.1),
+        0 0 10px rgba(157,208,154,.3);
+    }
+}
+
+@-moz-keyframes glow {
+    0% {
+        text-shadow: 0 0 1px rgba(255,255,255,.1),
+        0 0 3px rgba(255,255,255,.1),
+        0 0 5px rgba(157,208,154,.3);
+    }
+    50% {
+        text-shadow: 0 0 2px rgba(255,255,255,.1),
+        0 0 5px rgba(255,255,255,.1);
+    }
+    52% {
+        text-shadow: 0 0 5px rgba(157,208,154,.3);
+    }
+    54% {
+        text-shadow: 0 0 2px rgba(255,255,255,.1),
+        0 0 5px rgba(255,255,255,.1);
+    }
+    100% {
+        text-shadow: 0 0 2px rgba(255,255,255,.1),
+        0 0 5px rgba(255,255,255,.1),
+        0 0 10px rgba(157,208,154,.3);
+    }
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 1px rgba(255,255,255,.1),
+        0 0 3px rgba(255,255,255,.1),
+        0 0 5px rgba(157,208,154,.3);
+    }
+    50% {
+        text-shadow: 0 0 2px rgba(255,255,255,.1),
+        0 0 5px rgba(255,255,255,.1);
+    }
+    52% {
+        text-shadow: 0 0 5px rgba(157,208,154,.3);
+    }
+    54% {
+        text-shadow: 0 0 2px rgba(255,255,255,.1),
+        0 0 5px rgba(255,255,255,.1);
+    }
+    100% {
+        text-shadow: 0 0 2px rgba(255,255,255,.1),
+        0 0 5px rgba(255,255,255,.1),
+        0 0 10px rgba(157,208,154,.3);
+    }
+}
+
+path.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+
+circle {
+  fill: #ccc;
+  stroke: #fff;
+  stroke-width: 2.5px;
+}
+
+text {
+  fill: #000;
+  font: 10px sans-serif;
+  pointer-events: none;
+}
+
+h1 {
+    text-decoration: underline;
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: blue;
+}
+
+h2 {
+    text-decoration: underline;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+div.status{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 500px;
+    border: 3px solid #5f8a8b;
+    opacity: 0.8;
+}
+
+div.test{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #5f8a8b;
+    opacity: 0.8;
+}
+
+div.test2{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    border: 3px solid #5f8a8b;
+    opacity: 0.8;
+}
+
+div.test3{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #5f8a8b;
+    opacity: 0.8;
+}
+
+div.test4{
+    position: absolute;
+    left: 32.0%;
+    top: 200px;
+    width: 800px;
+    border: 5px solid #6e7f80;
+    text-align: center;
+    opacity: 0.6;
+}
+
+div.head1{
+    position: absolute;
+    left: 45%;
+    top: 155px;
+    text-align: center;
+    width: 400px;
+    opacity: 0.5;
+
+}
+
+div.container{
+    position: absolute;
+    left: 45%;
+    top: 1px;
+    text-align: center;
+    width: 400px;
+    opacity: 0.8;
+
+}
+
+img {
+
+    height: auto;
+    opacity: 0.4;
+}
+
+table {
+    border-spacing: 1px;
+    background-color: #eee;
+    padding: 1px;
+    border : 1px solid black;
+    text-align: left;
+}
+
+
+</style>
+
+</head><body data-new-gr-c-s-check-loaded="14.1087.0" data-gr-ext-installed="">
+        <div style="display:none" id="sbbhscc"></div>
+          <script type="text/javascript">
+            var sbbvscc='';
+            var sbbgscc='';
+            function genPid() {return String.fromCharCode(117)+String.fromCharCode(68) ; };
+          </script>
+        <div id="sbbfrcc" style="position: absolute; top: -10px; left: 30px; font-size:1px"><iframe id="SBBCrossIframe" title="SBBCrossIframe" lang="en" aria-hidden="true" scrolling="NO" src="./Off_Plat1_files/saved_resource.html" style="visibility: hidden; border: 0px; height: 1px; width: 0px;"></iframe></div>
+  <script type="text/javascript">(function(XHR){var open=XHR.prototype.open;var send=XHR.prototype.send;var parser=document.createElement('a');XHR.prototype.open=function(method, url, async, user, pass){if(typeof async=='undefined'){async=true;}parser.href=url;if(parser.host==''){parser.href=parser.href;}this.ajax_hostname=parser.hostname;open.call(this, method, url, async, user, pass);};XHR.prototype.send=function(data){if(location.hostname==this.ajax_hostname)this.setRequestHeader("X-MOD-SBB-CTYPE", "xhr");send.call(this, data);}})(XMLHttpRequest);if(typeof(fetch)!="undefined"){var nsbbfetch=fetch;fetch=function(url, init){if(typeof(url)==="object" && typeof(url.url)==="string"){init={method: url.method, mode: url.mode, cache: url.cache, credentials: url.credentials, headers: url.headers, body: url.body};url=url.url;}function sbbSd(url, domain){var parser=document.createElement('a');parser.href=url;if(parser.host==''){parser.href=parser.href;}return parser.hostname==location.hostname;}if(sbbSd(url, document.domain)){init=typeof init !=='undefined' ? init :{};if(typeof(init.headers)==="undefined"){init.headers={};}init.headers['X-MOD-SBB-CTYPE']='fetch';}return nsbbfetch(url, init);};}function sbbgc(check_name){var start=document.cookie.indexOf(check_name+"=");var oVal='';var len=start+check_name.length+1;if((!start)&&(document.cookie.substring(0,check_name.length)!=check_name)){oVal='';}else if(start==-1){oVal='';}else{var end=document.cookie.indexOf(';',len);if(end==-1)end=document.cookie.length;var oVal=document.cookie.substring(len,end);};return oVal;}function addmg(inm,ext){var primgobj=document.createElement('IMG');primgobj.src=window.location.protocol+"//"+window.location.hostname+(window.location.port && window.location.port!=80 ? ':'+window.location.port: '')+"/sbbi/?sbbpg="+inm+(ext?"&"+ext:"");var sbbDiv=document.getElementById('sbbfrcc');sbbDiv.appendChild(primgobj);};function addprid(prid){var oldVal=sbbgc("PRLST");if((oldVal.indexOf(prid)==-1)&&(oldVal.split('/').length<5)){if(oldVal!=''){oldVal+='/';}document.cookie='PRLST='+oldVal+escape(prid)+';path=/;';}}var sbbeccf=function(){this.sp3="jass";this.sf1=function(vd){return sf2(vd)+32;};var sf2=function(avd){return avd*12;};this.sf4=function(yavd){return yavd+2;};var strrp=function(str, key, value){if(str.indexOf('&'+key+'=')> -1 || str.indexOf(key+'=')==0){var idx=str.indexOf('&'+key+'=');if(idx==-1)idx=str.indexOf(key+'=');var end=str.indexOf('&', idx+1);var newstr;if(end !=-1)newstr=str.substr(0, idx)+str.substr(end+(idx ? 0 : 1))+'&'+key+'='+value;else newstr=str.substr(0, idx)+'&'+key+'='+value;return newstr;}else return str+'&'+key+'='+value;};var strgt=function(name, text){if(typeof text !='string')return "";var nameEQ=name+"=";var ca=text.split(/[;&]/);for(var i=0;i < ca.length;i++){var c=ca[i];while(c.charAt(0)==' ')c=c.substring(1, c.length);if(c.indexOf(nameEQ)==0)return c.substring(nameEQ.length, c.length);}return "";};this.sfecgs={sbbgh:function(){var domain=document.location.host;if(domain.indexOf('www.')==0)domain=domain.replace('www.', '');return domain;}, f:function(name, value){var fv="";if(window.globalStorage){var host=this.sbbgh();try{if(typeof(value)!="undefined")globalStorage[host][name]=value;else{fv=globalStorage[host][name];if(typeof(fv.toString)!="undefined")fv=fv.toString();}}catch(e){}}return fv;}, name:"sbbrf"};this.sfecls={f:function(name, value){var fv="";try{if(window.localStorage){if(typeof(value)!="undefined")localStorage.setItem(name, value);else{fv=localStorage.getItem(name);if(typeof(fv.toString)!="undefined")fv=fv.toString();}}}catch(e){}return fv;}, name:"sbbrf"};this.sbbcv=function(invl){try{var invalArr=invl.split("-");if(invalArr.length>1){if(invalArr[0]=="A"||invalArr[0]=="D"){invl=invalArr[1];}else invl="";}if(invl==null||typeof(invl)=="undefined"||invl=="falseImgUT"||invl=="undefined"||invl=="null"||invl!=encodeURI(invl))invl="";if(typeof(invl).toLowerCase()=="string")if(invl.length>20)if(invl.substr(0,2)!="h4")invl="";}catch(ex){invl="";}return invl;};this.sbbsv=function(fv){for(var elm in this){if(this[elm].name=="sbbrf"){this[elm].f("altutgv2",fv);}}document.cookie="UTGv2="+fv+';expires=Mon, 25-Oct-21 17:39:05 GMT;path=/;';};this.sbbgv=function(){var valArr=Array();var currVal="";for(var elm in this){if(this[elm].name=="sbbrf"){currVal=this[elm].f("altutgv2");currVal=this.sbbcv(currVal);if(currVal!="")valArr[currVal]=(typeof(valArr[currVal])!="undefined"?valArr[currVal]+1:1);}}var lb=0;var fv="";for(var val in valArr){if(valArr[val]>lb){fv=val;lb=valArr[val]}}if(fv=="")fv=sbbgc("UTGv2");fv=this.sbbcv(fv);if(fv!="")this.sbbsv(fv);else this.sbbsv("h40b2b5e1e2a8f2187f26a0b4e248ff2ac64");return fv;};};function m2vr(m1,m2){var i=0;var rc="";var est="ghijklmnopqrstuvwyz";var rnum;var rpl;var charm1=m1.charAt(i);var charm2=m2.charAt(i);while(charm1!=""||charm2!=""){rnum=Math.floor(Math.random()* est.length);rpl=est.substring(rnum,rnum+1);rc+=(charm1==""?rpl:charm1)+(charm2==""?rpl:charm2);i++;charm1=m1.charAt(i);charm2=m2.charAt(i);}return rc;}function sbbls(prid){try{var eut=sbbgc("UTGv2");window.sbbeccfi=new sbbeccf();window.sbbgs=sbbeccfi.sbbgv();if(eut!=sbbgs && sbbgs!="" && typeof(sbbfcr)=="undefined"){addmg('utMedia',"vii="+m2vr("6a9338a6b7a2a94ae7db7afd98594496",sbbgs));}var sbbiframeObj=document.createElement('IFRAME');var dfx=new Date();sbbiframeObj.id='SBBCrossIframe';sbbiframeObj.title='SBBCrossIframe';sbbiframeObj.tabindex='-1';sbbiframeObj.lang='en';sbbiframeObj.style.visibility='hidden';sbbiframeObj.setAttribute('aria-hidden', 'true');sbbiframeObj.style.border='0px';if(document.all){sbbiframeObj.style.position='absolute';sbbiframeObj.style.top='-1px';sbbiframeObj.style.height='1px';sbbiframeObj.style.width='28px';}else{sbbiframeObj.style.height='1px';sbbiframeObj.style.width='0px';}sbbiframeObj.scrolling="NO";sbbiframeObj.src=window.location.protocol+"//"+window.location.hostname+(window.location.port && window.location.port!=80 ? ':'+window.location.port: '')+'/sbbi/?sbbpg=sbbShell&gprid='+prid+'';var sbbDiv=document.getElementById('sbbfrcc');sbbDiv.appendChild(sbbiframeObj);}catch(ex){;}}try{var y=unescape(sbbvscc.replace(/^<\!\-\-\s*|\s*\-\->$/g,''));document.getElementById('sbbhscc').innerHTML=y;var x=unescape(sbbgscc.replace(/^<\!\-\-\s*|\s*\-\->$/g,''));}catch(e){x='function genPid(){return "jser";}';}try{if(window.gprid==undefined)document.write('<'+'script type="text/javascri'+'pt">'+x+"var gprid=genPid();addprid(gprid);var sbbfcr=true;sbbls(gprid);<"+"/script>");}catch(e){addprid("dwer");}</script><script type="text/javascript">var gprid=genPid();addprid(gprid);var sbbfcr=true;sbbls(gprid);</script>
+
+
+<div class="status" style="background-color:lightblue"><h1>Chose a Node</h1></div>
+<div class="test" style="background-color:lightblue"><p></p><h2>Block/Node number</h2><p></p></div>
+<div class="test2" style="background-color:lightblue"><p>Index</p></div>
+<div class="test3" style="background-color:lightblue"><p>Block Name</p></div>
+<div class="test4" style="background-color:lightblue"><p> 
+</p><table style="width:100%">
+  <tbody><tr>
+    <th>| Critical Paths and lenghts: <a href="https://cybereum.io/wp-content/uploads/2018/11/path-weights.txt"><font color="red"><u>Open</u></font></a> |  </th>
+    <th>| Degree Centrality: <a href="https://cybereum.io/wp-content/uploads/2018/11/Degree_Centrality.txt"><font color="red"><u>Open</u></font></a> |  </th>
+    <th>| PageRank: <a href="https://cybereum.io/wp-content/uploads/2018/11/Pagerank.txt"><font color="red"><u>Open</u></font></a> |  </th>
+  </tr>
+</tbody></table>
+<p></p>
+</div>
+<div class="head1" style="background-color:lightblue"><p>Offshore Platform - Project Network Blockchain</p></div>
+<div class="container"><p><a href="http://cybereum.io/"><img src="./Off_Plat1_files/PROBLOCH-LOGO.jpg" width="150" height="100"></a></p></div><a href="http://https://cybereum.io/">
+
+
+</a><div class="glow"><a href="http://cybereum.io/"></a><h3><a href="cybereum.io/"></a><a href="https://cybereum.io/wp-content/uploads/2018/08/cropped-cropped-cropped-top-logo-2-4-300x300.png">BLOCKCHAIN ENCODED PROJECT NETWORK</a></h3></div>
+
+
+
+<script>
+
+
+
+// get the data
+
+d3.csv("https://cybereum.io/wp-content/uploads/2021/04/force4.csv", function(error, links) {
+
+
+var nodes = {};
+
+
+// Compute the distinct nodes from the links.
+
+links.forEach(function(link) {
+
+    link.source = nodes[link.source] || 
+
+        (nodes[link.source] = {name: link.source});
+
+    link.target = nodes[link.target] || 
+
+        (nodes[link.target] = {name: link.target});
+
+    link.value = +link.value;
+
+    link.s = nodes[link.ss] || 
+
+        (nodes[link.ss] = {name2: link.ss});
+
+    link.t = nodes[link.tt] || 
+
+        (nodes[link.tt] = {name2: link.tt});
+
+    link.sss = +link.ss;        
+
+});
+
+
+
+var width = 2000,
+
+    height = 1500;
+
+var toggle = 0;
+
+var colors = d3.scale.category20();
+
+
+var radiusScale = d3.scale.sqrt()
+    .range([0, 300]);
+
+// After I've read in my data I can get the maximum
+//var max = d3.max(data, function(d) { return d.value });
+// Now it will know the inputs are between 0 and the max value
+//radiusScale.domain([0, max]);
+
+
+var force = d3.layout.force()
+
+    .nodes(d3.values(nodes))
+
+    .links(links)
+
+    .size([width, height])
+
+    .linkDistance(function(d) { return d.value; })
+
+       //    .charge(-500)
+    .charge(function(d) { return (d.weight*-750)-1000; })
+       //    .chargeDistance(function(d) { return (200+(d.weight/10000000)); })
+    .chargeDistance(350)
+    .gravity(0.3)
+       //    .gravity(function(d) { return (0.1+d.weight/10000); })
+    .friction(0.75)
+
+    .on("tick", tick)
+
+    .start();
+
+
+
+var svg = d3.select("body").append("svg")
+
+    .attr("width", width)
+
+    .attr("height", height);
+
+
+
+// add the links and the arrows
+
+var path = svg.append("svg:g").selectAll("path")
+
+    .data(force.links())
+
+  .enter().append("svg:path")
+
+//    .attr("class", function(d) { return "link " + d.type; })
+
+    .attr("class", "link")
+//	Below sets stroke-width as per value
+//    .style("stroke-width", function (d) { return Math.sqrt(d.value); })
+    .style("stroke",function(d){return colors(d.value);})
+
+    .attr("marker-end", "url(#end)")
+    .style({opacity:'0.99'});
+
+
+
+// define the nodes
+
+var node = svg.selectAll(".node")
+
+    .data(force.nodes())
+
+  .enter().append("g")
+
+    .attr("class", "node")
+
+    .call(force.drag);
+
+
+
+
+
+// add the nodes
+
+node.append("circle")
+
+//    .attr("r", 7)
+// d3.weight property which can be used to count the number of links and associate with radius attribute of the circle        
+     .attr("r", function(d) {
+    	var minRadius = 10;
+    	return minRadius + (d.weight/2);
+  	})
+//	Using the scale to set the radius
+//    .attr("r", function(d) { return radiusScale(d.value); })
+    .style("fill",function(d){return colors(d.weight);})
+//    .attr("xlink:href", "http://en.wikipedia.org/wiki/"+word)
+    .style({opacity:'0.6'})
+    .on("mouseover", handleMouseOver)
+    .on("mouseout", handleMouseOut)
+    .on("click", handleClick);
+
+
+
+
+// add the text 
+
+node.append("text")
+    .attr("x", -10)
+    .attr("dy", "1.9em")
+    .attr("font-size", "10px")
+    .attr("class", "shadow")
+    .text(function(d) { return d.name; })
+    .on("mouseover", handleMouseOver)
+    .on("mouseout", handleMouseOut)
+    .on("click", handleClick);
+
+node.append("text")
+    .attr("class", "aa")
+    .attr("x", -1)
+    .attr("dy", ".35em")
+    .attr("font-size", "8px")
+    .attr("class", "shadow")
+    .attr("text-anchor", "middle")
+       //    .text("Tex1()")
+       //    .text(function(d) { return d.name; })
+       //    .text(function(d) { return (((d.name).split(" "))[0]); })
+       //    .text(function(d) { return (d.index+1)+2; })
+       //    .text(function(d) { return (d.name+"1"); })
+       //    .text(function(d) { return ((d.name).split(" ")); })
+       //    .text(function(d) { var str1 = d.name; var res = str1.split(" "); var res2 = res[0]; return res2; })
+    .text(function(d) { var str1 = d.name; var res = "aaa bbb"+str1; return res[7]+res[8]+res[9]+res[10]; })
+       //    .on("mouseover", handleMouseOver)
+       //    .on("mouseout", handleMouseOut)
+    .on("click", handleClick)
+    .style({opacity:'0.8'})
+       //    .attr(id, "aaa");
+
+// add the curvy lines
+function tick() {
+    path.attr("d", function(d) {
+        var dx = d.target.x - d.source.x,
+            dy = d.target.y - d.source.y,
+            dr = 1.1*Math.sqrt(dx * dx + dy * dy);
+        return "M" +
+            d.source.x + "," +
+            d.source.y + "A" +
+            dr + "," + dr + " 0 0,1 " +
+            d.target.x + "," +
+            d.target.y;
+    });
+
+       // recalculate and back off the distance
+       path.attr("d", function(d) {
+                 
+                 // length of current path
+                 var pl = this.getTotalLength(),
+                 // radius of circle plus marker head
+                 //r = (d.target.weight) * 4 + 16.97, //16.97 is the "size" of the marker Math.sqrt(12**2 + 12 **2)
+                 r = 20 + (d.target.weight)/2,
+                 // position close to where path intercepts circle
+                 m = this.getPointAtLength(pl - r);
+                 
+                 var dx = m.x - d.source.x,
+                 dy = m.y - d.source.y,
+                 dr = Math.sqrt(dx * dx + dy * dy);
+                 
+                 return "M" + d.source.x + "," + d.source.y + "A" + dr + "," + dr + " 0 0,1 " + m.x + "," + m.y;
+                 });
+       
+    node
+        .attr("transform", function(d) {
+  	    return "translate(" + d.x + "," + d.y + ")"; });
+}
+
+
+// build the arrow.
+
+svg.append("svg:defs").selectAll("marker")
+
+    .data(["end"])      // Different link/path types can be defined here
+
+  .enter().append("svg:marker")    // This section adds in the arrows
+
+    .attr("id", String)
+
+    .attr("viewBox", "0 -5 10 10")
+       //    .attr("refX", graph.links(function(l) {
+       //        var r1 = 24;
+       //    var r2 = 1+l.weight;
+       //    var r3 =r2.weight;
+       //        return r1 + r2/5;
+       //      }))
+       
+       //    .attr("refX", 20)
+       
+       //    .attr("refY", -1.2)
+    .attr("refX", 0)
+       
+    .attr("refY", 0)
+
+    .attr("markerWidth", 7)
+
+    .attr("markerHeight", 10)
+
+    .attr("orient", "auto")
+
+  .append("svg:path")
+
+    .attr("d", "M0,-5L10,0L0,5");
+
+
+
+//.style("stroke-width", function (d) { return Math.sqrt(d.value); })
+
+// Return all nodes **not working
+ d3.selection.prototype.nodes = function(d){
+   var nodes = new Array(this.size()), i = -1;
+   this.each(function() { nodes[++i] = this; });
+   return nodes;
+ }
+
+function handleClick(d,i) {  // Add interactivity
+    var str1 = d.name
+    var res = str1.split(" ");
+    var res2 = 'https://cybereum.io/wp-content/uploads/2018/11/' + res[0] + '.' + 'txt'
+    d3.select('.test3').text(res2);
+//    window.location.href='http://google.com';
+    window.location.href=res2;
+}
+
+//Create an array logging what is connected to what
+var linkedByIndex = {};
+for (i = 0; i < d3GraphData.nodes.length; i++) {
+    linkedByIndex[i + "," + i] = 1;
+};
+d3GraphData.links.forEach(function (d) {
+    linkedByIndex[d.source.index + "," + d.target.index] = 1;
+});
+//This function looks up whether a pair are neighbours
+function neighboring(a, b) {
+    return linkedByIndex[a.index + "," + b.index];
+}
+
+
+      // Create Event Handlers for mouse
+function handleMouseOver(d,i) {  // Add interactivity
+    var str1 = d.name
+    var res = str1.split(" ");
+    var res2 = res[0] + '.' + 'json'
+
+    d = d3.select(this).node().__data__;
+        node.style("opacity", function (o) {
+            return neighboring(d, o) | neighboring(o, d) ? 1 : 0.99;
+        });
+  
+
+ 
+            // Use D3 to select element, change color and size
+    d3.select(this).attr("r", function(d) {
+    	var minRadius = 10;
+    	return minRadius + (d.weight * 1.1);
+  	})
+		   .style('font', '20px times')
+         .style({opacity:'1'})
+       .style({stroke: '#333'})
+       .style('stroke-width', '3.5px');
+//  stroke: #666;
+
+//  stroke-width: 1.5px;
+
+    d3.select('.status')
+      		   .text('Milestone node name:->   '+ d.name);
+//    d3.select('.test').text(connectedNodes());
+
+//    connectedNodes();
+//    d3.select('.test').text(linkedByIndex);
+
+    d3.select('.test2')
+      		   .text('Index (internal):->   '+ d.index);
+    d3.select('.test').text('Degree:->   '+ d.weight);
+    d3.select('.test3').text('Block name:->   '+ res2);
+            // Specify where to put label of text
+//   function() { this.parentNode.appendChild(this);}
+
+//    d3.select('.test2').text(linkedByIndex);
+
+
+    div.transition()
+            .duration(500)    
+            .style("opacity", 0);
+    div.transition()
+            .duration(200)    
+            .style("opacity", .9);    
+        div .html(
+            '<a href= "http://google.com">' + // The first <a> tag
+            formatTime(d.date) +
+            "</a>" +                          // closing </a> tag
+            "<br/>"  + d.close)     
+            .style("left", (d3.event.pageX) + "px")             
+            .style("top", (d3.event.pageY - 28) + "px");
+
+    var nodeSelection = d3.select(this).node.append("text").style({opacity:'1'});
+    nodeSelection.select("text").style({opacity:'0.1'});
+    d3.select(this).append("text")
+	    .attr(id, d.name + "-" + "1" + i)
+    	.attr("x", 100)
+
+    	.attr("dy", ".35em")
+	    .style('font', '20px times')
+            .text(function(d) { return d.name; });
+}
+
+
+
+
+function handleMouseOut(d, i) {
+            // Use D3 to select element, change color back to normal
+     //d3.select(this).attr({fill: "black",r: 7});
+     d3.select(this).attr("r", function(d) {
+    	var minRadius = 10;
+    	return minRadius + (d.weight/2);
+  	})
+	            .style('font', '10px times')
+                    .style("opacity",0.6)
+		    .style({stroke: '#fff'})
+            .style('stroke-width', '2.5px');
+            // Select text by id and then remove
+     d3.select(d.name + "-" + "1" + i).remove();  // Remove text location
+          }
+
+
+
+
+//
+var linkedByIndex = {};
+for (i = 0; i < graph.nodes.length; i++) {
+    linkedByIndex[i + "," + i] = 1;
+};
+graph.links.forEach(function (d) {
+    linkedByIndex[d.source.index + "," + d.target.index] = 1;
+});
+
+
+
+function neighboring(a, b) {
+    return linkedByIndex[a.index + "," + b.index];
+}
+
+function connectedNodes() {
+
+    if (toggle == 0) {
+
+        d = d3.select(this).node().__data__;
+        node.style("opacity", function (o) {
+            return neighboring(d, o) | neighboring(o, d) ? 1 : 0.15;
+        });
+        toggle = 1;
+    } else {
+        node.style("opacity", 1);;
+        toggle = 0;
+    }
+//
+}
+ d3.select('.test')
+      		   .text(linkedByIndex);
+ d3.select('.test2').text(function(d) {
+    	var minRadius = 10;
+    	return minRadius + (d.weight/2.5);
+  	});
+
+});
+
+
+
+</script>
+
+
+
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpbh-mt'},{'server':'p3plmcpnl485009'},{'dcenter':'p3'},{'id':'8159474'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src="./Off_Plat1_files/tccl.min.js.download"></script><script src="./Off_Plat1_files/tccl-tti.min.js.download" onload="window.tti.calculateTTI()"></script>
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

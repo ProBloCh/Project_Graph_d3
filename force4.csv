@@ -1,0 +1,242 @@
+source,target,value
+4  Execution Master Document Register - IFD,3  Completion of ,120
+4  Execution Master Document Register - IFD,71  Plat Project Execution Plan - IFR,120
+5  Plat Execution Basis of Bid - IFD,3  Completion of ,72
+6  Plat  Schedule - IFR,3  Completion of ,64
+6  Plat  Schedule - IFR,93  Plat  Schedule - IFD,64
+7  Plat Technical Description - IFR,3  Completion of ,160
+7  Plat Technical Description - IFR,75  Plat Execution Master Document Register - IFR,160
+7  Plat Technical Description - IFR,89  Plat Technical Description - IFD,160
+8  Plat  Master Document Register (Input to Topsides Contractor only) - IFR,3  Completion of ,64
+8  Plat  Master Document Register (Input to Topsides Contractor only) - IFR,92  Plat  Master Document Register (Input to Topsides Contractor only) - IFD,64
+9  Procurement Plan - IFD,3  Completion of ,72
+10  Plat Project Execution Plan - IFD,3  Completion of ,80
+11  Plat Execution Phase Bid - IFD,3  Completion of ,72
+16  Plat General Arrangement Drawings - IFD,15  GENERAL ARRANGEMENT - ISSUED FOR DESIGN,80
+16  Plat General Arrangement Drawings - IFD,45  Plat GA Drawings Issued IFD,80
+15  GENERAL ARRANGEMENT - ISSUED FOR DESIGN,3  Completion of ,0
+20  Plat P&IDs - IFR,19  P&ID - ISSUED FOR REVIEW,160
+20  Plat P&IDs - IFR,69  Plat PDMS Modeling,160
+20  Plat P&IDs - IFR,158  Plat Speciality Piping Item List - IFR,160
+20  Plat P&IDs - IFR,160  Plat Pipe Stress Analysis Report - Critical Lines Only - IFR (Need to Expedite Start),160
+20  Plat P&IDs - IFR,161  Plat Piping Line List - IFR,160
+20  Plat P&IDs - IFR,162  Plat Firewater Demand Calculation - IFR,160
+20  Plat P&IDs - IFR,22  Plat P&IDs - IFD,160
+20  Plat P&IDs - IFR,172  Plat Major Equipment List - IFR,160
+20  Plat P&IDs - IFR,180  Plat Instrument Index - IFR,160
+20  Plat P&IDs - IFR,181  Plat Instrument Input /Output List - IFR,160
+19  P&ID - ISSUED FOR REVIEW,3  Completion of ,0
+22  Plat P&IDs - IFD,21  P&ID - ISSUED FOR DESIGN,80
+21  P&ID - ISSUED FOR DESIGN,3  Completion of ,0
+29  Plat P&IDs - IFH,28  PID - ISSUED FOR HAZOP,80
+29  Plat P&IDs - IFH,20  Plat P&IDs - IFR,80
+28  PID - ISSUED FOR HAZOP,33  HAZOP Workshop,0
+27  PFD/UFD/GA - ISSUED FOR HAZID (By Topsides Contractor),32  HAZID Workshop,0
+27  PFD/UFD/GA - ISSUED FOR HAZID (By Topsides Contractor),70  Plat Weight Report (Input to Topsides Contractor Only),0
+27  PFD/UFD/GA - ISSUED FOR HAZID (By Topsides Contractor),74  Plat Utilities Consumption List - IFR,0
+27  PFD/UFD/GA - ISSUED FOR HAZID (By Topsides Contractor),29  Plat P&IDs - IFH,0
+32  HAZID Workshop,3  Completion of ,32
+33  HAZOP Workshop,3  Completion of ,184
+36  Plat Emergency Escape Route Drawings - IFR,35  Escape Route Arrangement (LQ main deck) Issued IFR,48
+36  Plat Emergency Escape Route Drawings - IFR,38  Plat Emergency Escape Route Drawings - IFD,48
+35  Escape Route Arrangement (LQ main deck) Issued IFR,3  Completion of ,0
+38  Plat Emergency Escape Route Drawings - IFD,37  Escape Route Arrangement (LQ main deck) Issued IFD,64
+37  Escape Route Arrangement (LQ main deck) Issued IFD,3  Completion of ,0
+12   Contract Award,215  Plat Start - Plat Internal Kickoff,0
+12   Contract Award,8  Plat  Master Document Register (Input to Topsides Contractor only) - IFR,0
+12   Contract Award,6  Plat  Schedule - IFR,0
+215  Plat Start - Plat Internal Kickoff,44  Plat General Arrangement Drawings - IFR,0
+215  Plat Start - Plat Internal Kickoff,73  Geotechnical Survey Requirements for  - IFR,0
+215  Plat Start - Plat Internal Kickoff,82  List of assumptions and exclusions - IFR (?Discuss with Topsides Contractor),0
+215  Plat Start - Plat Internal Kickoff,106  Mooring Design Basis - IFR,0
+215  Plat Start - Plat Internal Kickoff,122  Wheel and Rail Upper-Bearing - Design Basis - IFR,0
+215  Plat Start - Plat Internal Kickoff,123  Dual-Axis Chain Support Assembly - Design Basis - IFR,0
+215  Plat Start - Plat Internal Kickoff,126  Lower Bearing - Design Basis - IFR,0
+215  Plat Start - Plat Internal Kickoff,128  Piping Ass Assembly - Design Basis - IFR,0
+215  Plat Start - Plat Internal Kickoff,130  Mechanical Handling Equipment - Design Basis - IFR,0
+215  Plat Start - Plat Internal Kickoff,132  Chain Support Assembly Deployment System - Design Basis - IFR,0
+215  Plat Start - Plat Internal Kickoff,133  Chain Support Assembly Deployment System - Assembly - IFR,0
+215  Plat Start - Plat Internal Kickoff,134  Cathodic Protection - Design Basis - IFR,0
+215  Plat Start - Plat Internal Kickoff,151  Plat Structural Design Basis - IFR,0
+215  Plat Start - Plat Internal Kickoff,159  Piping System - Design Basis - IFR,0
+215  Plat Start - Plat Internal Kickoff,163  Plat Drain Philosophy - IFR,0
+215  Plat Start - Plat Internal Kickoff,176  Plat Electrical & Instrumentation- Design Basis - IFR,0
+215  Plat Start - Plat Internal Kickoff,186  Plat Local Equipment Room - Design Basis - IFR,0
+215  Plat Start - Plat Internal Kickoff,12   Contract Award,232
+215  Plat Start - Plat Internal Kickoff,27  PFD/UFD/GA - ISSUED FOR HAZID (By Topsides Contractor),232
+215  Plat Start - Plat Internal Kickoff,31  Geotechnical Survey Results (Confirm with CoP?),232
+215  Plat Start - Plat Internal Kickoff,65  Piping Specification (Topsides Contractor),232
+215  Plat Start - Plat Internal Kickoff,66  Piping Materials Specification (Topsides Contractor),232
+44  Plat General Arrangement Drawings - IFR,43  Plat GA Drawings Issued IFR,56
+44  Plat General Arrangement Drawings - IFR,48  Plat 30% Model Review,56
+44  Plat General Arrangement Drawings - IFR,7  Plat Technical Description - IFR,56
+44  Plat General Arrangement Drawings - IFR,72  Plat Integration Plan - IFR,56
+44  Plat General Arrangement Drawings - IFR,36  Plat Emergency Escape Route Drawings - IFR,56
+44  Plat General Arrangement Drawings - IFR,84  Hazardous Area Classification Drawings - IFR,56
+44  Plat General Arrangement Drawings - IFR,85  Hazardous Area Classification - Fluid Chart - IFR,56
+44  Plat General Arrangement Drawings - IFR,16  Plat General Arrangement Drawings - IFD,56
+44  Plat General Arrangement Drawings - IFR,127  Lower Bearing General Arrangement - IFR,56
+44  Plat General Arrangement Drawings - IFR,129  Piping Ass Assembly General Arrangement - IFR,56
+44  Plat General Arrangement Drawings - IFR,131  Mechanical Handling Study Report (Including Bearing Changeout) - IFR,56
+44  Plat General Arrangement Drawings - IFR,157  Plat Safety Equipment Locations - IFR,56
+43  Plat GA Drawings Issued IFR,3  Completion of ,0
+45  Plat GA Drawings Issued IFD,3  Completion of ,0
+47  Plat Navisworks 3D Model,46  Plat 3D Model Ready to Integrate,0
+46  Plat 3D Model Ready to Integrate,3  Completion of ,40
+48  Plat 30% Model Review,143  Mechanical Handling Study Report (Including Bearing Changeout) - IFD,40
+69  Plat PDMS Modeling,47  Plat Navisworks 3D Model,1048
+69  Plat PDMS Modeling,160  Plat Pipe Stress Analysis Report - Critical Lines Only - IFR (Need to Expedite Start),1048
+70  Plat Weight Report (Input to Topsides Contractor Only),3  Completion of ,240
+71  Plat Project Execution Plan - IFR,10  Plat Project Execution Plan - IFD,120
+72  Plat Integration Plan - IFR,86  Plat Project Quality Plan-IFR,72
+72  Plat Integration Plan - IFR,95  Plat Integration Plan - IFD,72
+73  Geotechnical Survey Requirements for  - IFR,90  Geotechnical Survey Requirements for  - IFD,80
+74  Plat Utilities Consumption List - IFR,91  Plat Utilities Consumption List - IFD,72
+75  Plat Execution Master Document Register - IFR,76  Plat Execution Schedule - IFR,120
+75  Plat Execution Master Document Register - IFR,4  Plat Execution Master Document Register - IFD,120
+76  Plat Execution Schedule - IFR,78  Plat Execution Schedule - IFD,72
+78  Plat Execution Schedule - IFD,77  Plat Execution Phase Scope of Work - IFR,72
+77  Plat Execution Phase Scope of Work - IFR,81  Plat Execution Phase Scope of Work - IFD,72
+80  Plat Execution Basis of Bid - IFR,79  Plat Execution Phase Bid - IFR,72
+80  Plat Execution Basis of Bid - IFR,83  Procurement Plan - IFR,72
+80  Plat Execution Basis of Bid - IFR,5  Plat Execution Basis of Bid - IFD,72
+79  Plat Execution Phase Bid - IFR,11  Plat Execution Phase Bid - IFD,72
+81  Plat Execution Phase Scope of Work - IFD,80  Plat Execution Basis of Bid - IFR,72
+82  List of assumptions and exclusions - IFR (?Discuss with Topsides Contractor),94  List of assumptions and exclusions - IFD (?Discuss with Topsides Contractor),72
+83  Procurement Plan - IFR,9  Procurement Plan - IFD,72
+84  Hazardous Area Classification Drawings - IFR,98  Hazardous Area Classification Drawings - IFD,40
+85  Hazardous Area Classification - Fluid Chart - IFR,99  Hazardous Area Classification - Fluid Chart - IFD,40
+86  Plat Project Quality Plan-IFR,96  Plat Project Quality Plan-IFD,72
+88  Wave Basin Model Test Report - IFR,87  Wave Basin Model Test Correlation Report - IFR,64
+88  Wave Basin Model Test Report - IFR,117  Wave Basin Model Test Report - IFD,64
+87  Wave Basin Model Test Correlation Report - IFR,97  Wave Basin Model Test Correlation Report - IFD,64
+87  Wave Basin Model Test Correlation Report - IFR,120  Plat Mooring System Design Loads Report - IFD,64
+89  Plat Technical Description - IFD,3  Completion of ,120
+90  Geotechnical Survey Requirements for  - IFD,3  Completion of ,152
+91  Plat Utilities Consumption List - IFD,3  Completion of ,72
+92  Plat  Master Document Register (Input to Topsides Contractor only) - IFD,3  Completion of ,104
+93  Plat  Schedule - IFD,3  Completion of ,104
+94  List of assumptions and exclusions - IFD (?Discuss with Topsides Contractor),3  Completion of ,72
+95  Plat Integration Plan - IFD,3  Completion of ,120
+96  Plat Project Quality Plan-IFD,3  Completion of ,72
+97  Wave Basin Model Test Correlation Report - IFD,3  Completion of ,80
+98  Hazardous Area Classification Drawings - IFD,3  Completion of ,80
+99  Hazardous Area Classification - Fluid Chart - IFD,3  Completion of ,80
+102  Wind Tunnel Model Test Report - IFR,101  Plat Mooring System Design Loads Report - IFR,120
+102  Wind Tunnel Model Test Report - IFR,112  Heading Analysis and Offloading Availability Study Report - IFR,120
+102  Wind Tunnel Model Test Report - IFR,115  Wind Tunnel Model Test Report - IFD,120
+101  Plat Mooring System Design Loads Report - IFR,120  Plat Mooring System Design Loads Report - IFD,224
+101  Plat Mooring System Design Loads Report - IFR,160  Plat Pipe Stress Analysis Report - Critical Lines Only - IFR (Need to Expedite Start),224
+104  Anchor Design Report - IFR,103  Anchor Leg Installation Guideline - IFR (Topsides Contractor to Install),200
+104  Anchor Design Report - IFR,153  Anchor Design Report - IFD,200
+103  Anchor Leg Installation Guideline - IFR (Topsides Contractor to Install),113  Anchor Leg Installation Guideline - IFD (Topsides Contractor to Install),64
+106  Mooring Design Basis - IFR,105  Anchor Leg Monitoring System Philosophy - IFR,72
+106  Mooring Design Basis - IFR,109  Mooring Design Basis - IFD,72
+105  Anchor Leg Monitoring System Philosophy - IFR,114  Anchor Leg Monitoring System Philosophy - IFD,64
+107  Wind Tunnel Test,102  Wind Tunnel Model Test Report - IFR,40
+109  Mooring Design Basis - IFD,108  Wind Tunnel Test Specification - IFR,80
+109  Mooring Design Basis - IFD,111  Wave Basin Test Specification - IFR,80
+109  Mooring Design Basis - IFD,104  Anchor Design Report - IFR,80
+108  Wind Tunnel Test Specification - IFR,116  Wind Tunnel Test Specification - IFD,72
+110  Wave Basin Test,88  Wave Basin Model Test Report - IFR,184
+111  Wave Basin Test Specification - IFR,118  Wave Basin Test Specification - IFD,72
+112  Heading Analysis and Offloading Availability Study Report - IFR,119  Heading Analysis and Offloading Availability Study Report - IFD,224
+113  Anchor Leg Installation Guideline - IFD (Topsides Contractor to Install),3  Completion of ,80
+114  Anchor Leg Monitoring System Philosophy - IFD,3  Completion of ,640
+115  Wind Tunnel Model Test Report - IFD,3  Completion of ,80
+116  Wind Tunnel Test Specification - IFD,107  Wind Tunnel Test,72
+117  Wave Basin Model Test Report - IFD,3  Completion of ,176
+118  Wave Basin Test Specification - IFD,110  Wave Basin Test,80
+119  Heading Analysis and Offloading Availability Study Report - IFD,3  Completion of ,160
+120  Plat Mooring System Design Loads Report - IFD,3  Completion of ,80
+122  Wheel and Rail Upper-Bearing - Design Basis - IFR,137  Wheel and Rail Upper-Bearing - Design Basis - IFD,72
+123  Dual-Axis Chain Support Assembly - Design Basis - IFR,125  Dual-Axis Chain Support Assembly - Design Basis - IFD,72
+125  Dual-Axis Chain Support Assembly - Design Basis - IFD,124  Dual-Axis Chain Support Assembly - General Assembly - IFR,80
+124  Dual-Axis Chain Support Assembly - General Assembly - IFR,138  Dual-Axis Chain Support Assembly - General Assembly - IFD,72
+124  Dual-Axis Chain Support Assembly - General Assembly - IFR,172  Plat Major Equipment List - IFR,72
+126  Lower Bearing - Design Basis - IFR,139  Lower Bearing - Design Basis - IFD,72
+127  Lower Bearing General Arrangement - IFR,140  Lower Bearing General Arrangement - IFD,72
+128  Piping Ass Assembly - Design Basis - IFR,141  Piping Ass Assembly - Design Basis - IFD,72
+129  Piping Ass Assembly General Arrangement - IFR,142  Piping Ass Assembly General Arrangement - IFD,344
+129  Piping Ass Assembly General Arrangement - IFR,160  Plat Pipe Stress Analysis Report - Critical Lines Only - IFR (Need to Expedite Start),344
+130  Mechanical Handling Equipment - Design Basis - IFR,136  Mechanical Handling Equipment - Design Basis - IFD,72
+131  Mechanical Handling Study Report (Including Bearing Changeout) - IFR,143  Mechanical Handling Study Report (Including Bearing Changeout) - IFD,120
+132  Chain Support Assembly Deployment System - Design Basis - IFR,144  Chain Support Assembly Deployment System - Design Basis - IFD,72
+133  Chain Support Assembly Deployment System - Assembly - IFR,145  Chain Support Assembly Deployment System - Assembly - IFD,232
+134  Cathodic Protection - Design Basis - IFR,146  Cathodic Protection - Design Basis - IFD,72
+136  Mechanical Handling Equipment - Design Basis - IFD,135  Riser Pull-in System Design and Plan - IFR,80
+135  Riser Pull-in System Design and Plan - IFR,147  Riser Pull-in System Design and Plan - IFD,72
+135  Riser Pull-in System Design and Plan - IFR,172  Plat Major Equipment List - IFR,72
+137  Wheel and Rail Upper-Bearing - Design Basis - IFD,3  Completion of ,80
+138  Dual-Axis Chain Support Assembly - General Assembly - IFD,3  Completion of ,80
+139  Lower Bearing - Design Basis - IFD,3  Completion of ,80
+140  Lower Bearing General Arrangement - IFD,3  Completion of ,72
+141  Piping Ass Assembly - Design Basis - IFD,3  Completion of ,80
+142  Piping Ass Assembly General Arrangement - IFD,172  Plat Major Equipment List - IFR,80
+143  Mechanical Handling Study Report (Including Bearing Changeout) - IFD,3  Completion of ,72
+144  Chain Support Assembly Deployment System - Design Basis - IFD,3  Completion of ,80
+145  Chain Support Assembly Deployment System - Assembly - IFD,3  Completion of ,72
+146  Cathodic Protection - Design Basis - IFD,3  Completion of ,80
+147  Riser Pull-in System Design and Plan - IFD,3  Completion of ,80
+31  Geotechnical Survey Results (Confirm with CoP?),104  Anchor Design Report - IFR,0
+150  Moonpool Structure - Interface Design and Analysis Report - IFR,149  Plat Structure Design Report - IFR,560
+150  Moonpool Structure - Interface Design and Analysis Report - IFR,155  Moonpool Structure - Interface Design and Analysis Report - IFD,560
+149  Plat Structure Design Report - IFR,154  Plat Structure Design Report - IFD,720
+151  Plat Structural Design Basis - IFR,152  Plat Structural Design Basis - IFD,72
+152  Plat Structural Design Basis - IFD,150  Moonpool Structure - Interface Design and Analysis Report - IFR,80
+153  Anchor Design Report - IFD,3  Completion of ,80
+154  Plat Structure Design Report - IFD,3  Completion of ,120
+155  Moonpool Structure - Interface Design and Analysis Report - IFD,3  Completion of ,80
+157  Plat Safety Equipment Locations - IFR,164  Plat Safety Equipment Locations - IFD,40
+158  Plat Speciality Piping Item List - IFR,165  Plat Speciality Piping Item List - IFD,64
+159  Piping System - Design Basis - IFR,162  Plat Firewater Demand Calculation - IFR,72
+159  Piping System - Design Basis - IFR,20  Plat P&IDs - IFR,72
+159  Piping System - Design Basis - IFR,166  Piping System - Design Basis - IFD,72
+160  Plat Pipe Stress Analysis Report - Critical Lines Only - IFR (Need to Expedite Start),167  Plat Pipe Stress Analysis Report - Critical Lines Only - IFD,160
+161  Plat Piping Line List - IFR,168  Plat Piping Line List - IFD,384
+162  Plat Firewater Demand Calculation - IFR,169  Plat Firewater Demand Calculation - IFD,272
+163  Plat Drain Philosophy - IFR,170  Plat Drain Philosophy - IFD,72
+66  Piping Materials Specification (Topsides Contractor),20  Plat P&IDs - IFR,40
+65  Piping Specification (Topsides Contractor),20  Plat P&IDs - IFR,40
+164  Plat Safety Equipment Locations - IFD,3  Completion of ,80
+165  Plat Speciality Piping Item List - IFD,3  Completion of ,80
+166  Piping System - Design Basis - IFD,3  Completion of ,80
+167  Plat Pipe Stress Analysis Report - Critical Lines Only - IFD,3  Completion of ,80
+168  Plat Piping Line List - IFD,3  Completion of ,64
+169  Plat Firewater Demand Calculation - IFD,3  Completion of ,80
+170  Plat Drain Philosophy - IFD,3  Completion of ,80
+172  Plat Major Equipment List - IFR,173  Plat Major Equipment List - IFD,64
+172  Plat Major Equipment List - IFR,177  Plat Electrical Load List - IFR,64
+173  Plat Major Equipment List - IFD,3  Completion of ,80
+176  Plat Electrical & Instrumentation- Design Basis - IFR,175  Plat Instrumentation One Line Diagrams - IFR,72
+176  Plat Electrical & Instrumentation- Design Basis - IFR,179  Plat Electrical One Line Diagrams - IFR,72
+176  Plat Electrical & Instrumentation- Design Basis - IFR,183  Electrical - Interface Block Diagram - IFR,72
+176  Plat Electrical & Instrumentation- Design Basis - IFR,178  Electrical - Block Diagram - IFR,72
+176  Plat Electrical & Instrumentation- Design Basis - IFR,184  Plat Instrumentation Block Diagrams - IFR,72
+176  Plat Electrical & Instrumentation- Design Basis - IFR,193  Plat Electrical & Instrumentation- Design Basis - IFD,72
+175  Plat Instrumentation One Line Diagrams - IFR,189  Plat Instrumentation One Line Diagrams - IFD,72
+177  Plat Electrical Load List - IFR,196  Plat Electrical Load List - IFD,80
+178  Electrical - Block Diagram - IFR,177  Plat Electrical Load List - IFR,320
+178  Electrical - Block Diagram - IFR,195  Electrical - Block Diagram - IFD,320
+179  Plat Electrical One Line Diagrams - IFR,190  Plat Electrical One Line Diagrams - IFD,72
+180  Plat Instrument Index - IFR,191  Plat Instrument Index - IFD,72
+181  Plat Instrument Input /Output List - IFR,192  Plat Instrument Input /Output List - IFD,72
+186  Plat Local Equipment Room - Design Basis - IFR,182  Plat Local Equipment Room - General Layout - IFR (Need Input From Leads),72
+186  Plat Local Equipment Room - Design Basis - IFR,185  Plat Instrumentation Interface Block Diagrams - IFR,72
+186  Plat Local Equipment Room - Design Basis - IFR,188  Plat Local Equipment Room - Design Basis - IFD,72
+182  Plat Local Equipment Room - General Layout - IFR (Need Input From Leads),187  Plat Local Equipment Room - General Layout - IFD,48
+183  Electrical - Interface Block Diagram - IFR,194  Electrical - Interface Block Diagram - IFD,400
+184  Plat Instrumentation Block Diagrams - IFR,197  Plat Instrumentation Block Diagrams - IFD,88
+185  Plat Instrumentation Interface Block Diagrams - IFR,198  Plat Instrumentation Interface Block Diagrams - IFD,232
+187  Plat Local Equipment Room - General Layout - IFD,3  Completion of ,80
+188  Plat Local Equipment Room - Design Basis - IFD,3  Completion of ,80
+189  Plat Instrumentation One Line Diagrams - IFD,3  Completion of ,72
+190  Plat Electrical One Line Diagrams - IFD,3  Completion of ,80
+191  Plat Instrument Index - IFD,3  Completion of ,80
+192  Plat Instrument Input /Output List - IFD,3  Completion of ,80
+193  Plat Electrical & Instrumentation- Design Basis - IFD,3  Completion of ,80
+194  Electrical - Interface Block Diagram - IFD,3  Completion of ,80
+195  Electrical - Block Diagram - IFD,3  Completion of ,80
+196  Plat Electrical Load List - IFD,3  Completion of ,64
+197  Plat Instrumentation Block Diagrams - IFD,3  Completion of ,72
+198  Plat Instrumentation Interface Block Diagrams - IFD,3  Completion of ,72
